@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Responsive Website</title>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+h1{
+	text-align: center;
+	margin-left: 15px;
+}	
+p{
+	border: 1px solid black;
+	background-color: #A52A2A;
+	width:90%;
+	height:150px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	color:white;
+}
+.row{
+	width:100%;
+}
+@media (min-width:1200px){
+	.col-lg-1,.col-lg-2,.col-lg-3{
+		float:left;
+		border:1px solid green;
+	}
+	.col-lg-1{width:33.32%;}
+	.col-lg-2{width:66.64%;}
+	.col-lg-3{width:100;}
+}
+@media(min-width: 950px) and (max-width: 1199px){
+	.col-md-1,.col-md-2,.col-md-3{
+		float: left;
+		border:1px solid green;
+	}
+	.col-md-1{width:33.32%;}
+	.col-md-2{width:66.64%;}
+	.col-md-3{width:100%;}
+}
+</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+</br></br></br>
+<div class="row">
+<div class="col-lg-1 col-md-3"><P>Item1: Shushi Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯)</P></div>	
+<div class="col-lg-1 col-md-3"><P>Item2 Pizza: Pizza (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.) which is then baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.</P></div>	
+<div class="col-lg-1 col-md-3"><P>Item3 Burger: A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked[1] or flame broiled. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chiles; condiments such as ketchup, mustard, mayonnaise, relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently placed on sesame seed buns. A hamburger topped with cheese is called a cheeseburger.</P></div>
+</div>		
+</body>
+</html>
